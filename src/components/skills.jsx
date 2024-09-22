@@ -29,7 +29,7 @@ const Skills = () => {
         <div className="flex flex-col w-full lg:w-1/2">
           <div>
             <h2 className="flex items-center font-clashbold text-white font-semibold text-[20px] leading-[24.6px] lg:text-[60px] lg:leading-[49.2px]">
-              Skills <small className="animate-bounce">🤹‍♂️</small>
+              Skills I Possess? <small className="animate-bounce">🤹‍♂️</small>
             </h2>
             <p className="font-medium text-[#D0E0FF] text-[15px] leading-[22.5px] lg:text-[20px] lg:leading-[30px] lg:tracking-wide">
               I've honed these skills through diverse projects and experiences.

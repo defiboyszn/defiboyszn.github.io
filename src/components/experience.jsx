@@ -35,7 +35,7 @@ const Experience = () => {
                   Advocate - Morph <span>-</span>&nbsp;
                   <span className="italic text-[#FFFFFF99]">August 2024</span>
                 </h3>
-                <p className={`text-[#fff] font-semibold md:mt-[10px] text-[18px] leading-[27px]`}>
+                <p className={`text-[#fff] font-normal md:mt-[10px] text-[14px] leading-[27px] w-[290px] md:w-fit text-wrap`}>
                   - Creating intermediate to advanced content (ideally technical & development). <br />
                   - Contributing at hackathons, and helping translate or offer feedback on content and events on Morph, Ethereum and Layer2
                 </p>
@@ -54,7 +54,7 @@ const Experience = () => {
                   Developer Relations - NextBridge Africa <span>-</span>&nbsp;
                   <span className="italic text-[#FFFFFF99]">March 2024</span>
                 </h3>
-                <p className={`text-[#fff] font-semibold md:mt-[10px] text-[18px] leading-[27px]`}>
+                <p className={`text-[#fff] font-normal md:mt-[10px] text-[14px] leading-[27px] w-[290px] md:w-fit text-wrap`}>
                   Hosted our first web3Conf IRL in Enugu, Nigeria.
                   The event was sponsored by Viction & Chainlyzeai, we had over 150+ attendees and over 5+ speakers from different background in the web3 space.
                 </p>
@@ -73,9 +73,10 @@ const Experience = () => {
                   Developer Relations - Codespace <span>-</span>&nbsp;
                   <span className="italic text-[#FFFFFF99]">October 2023</span>
                 </h3>
-                <p className={`text-[#fff] font-semibold md:mt-[10px] text-[18px] leading-[27px]`}>
+                <p className={`text-[#fff] font-normal md:mt-[10px] text-[14px] leading-[27px] w-[290px] md:w-fit text-wrap`}>
                   Transitioned my role at Codespace from a community manager to a Devrel.
-                  As a DevRel for Codespace, i co-lead the just concluded Fusion Tech Fest Hackathon that was a partnership with Genztechies, which had over 500+ signups with sponsorship from companies like AWS,Tublian,Paystack,Jetbrain,Terraphix,Wix
+                  As a DevRel for Codespace, i co-lead the just concluded Fusion Tech Fest Hackathon that was a partnership with Genztechies, 
+                  <br /> which had over 500+ signups with sponsorship from top companies like AWS
                 </p>
 
               </div>

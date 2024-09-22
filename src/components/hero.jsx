@@ -88,10 +88,11 @@ const Hero = () => {
           </div>
           <div className="mt-[2.5rem] group">
             <div className="relative flex flex-col justify-center w-max">
-              <div className={`w-full`}>
+              <div className={`w-full `}>
+                <div className="absolute w-full h-full bottom-3 z-[9999] rounded group-hover:transition group-hover:delay-100 group-hover:ease-linear group-hover:duration-100 group-hover:rotate-6 right-4 md:bottom-5 md:right-6 lg:bottom-10 lg:right-12 object-cover"></div>
                 <img
                   src="/images/defiboy.jpg"
-                  alt="hero image is here"
+                  alt="a king image"
                   className="absolute w-full h-full bottom-3 z-[99] rounded group-hover:transition group-hover:delay-100 group-hover:ease-linear group-hover:duration-100 group-hover:rotate-6 right-4 md:bottom-5 md:right-6 lg:bottom-10 lg:right-12 object-cover"
                   draggable={false}
                   loading="lazy"
@@ -102,23 +103,6 @@ const Hero = () => {
               ></motion.div>
             </div>
           </div>
-          {/* <div className="flex flex-col items-center mt-[60px] md:mt-0">
-            <div className="relative">
-              <motion.div whileHover={{}}>
-                <img
-                  src={hero}
-                  alt="hero image is here"
-                  className="w-[330px] h-[330px] mg:w-3/4 lg:w-[512px] lg:h-[512px] absolute bottom-[32px] -left-[36px] md:bottom-[52px] md:right-[56px] object-cover"
-                  draggable={false}
-                  loading="lazy"
-
-                />
-              </motion.div>
-              <div
-                className={`max-w-[330px] min-h-[330px] md:w-[200px] lg:min-w-[512px] lg:min-h-[512px] border-[#fff] border-[3px] border-solid`}
-              ></div>
-            </div>
-          </div> */}
         </div>
       </section>
     </>
